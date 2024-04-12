@@ -83,7 +83,7 @@ button {
     font-size: 18px;
     font-weight: 600;
     box-shadow: 0.2px 4px 4px rgba(24, 255, 255, 1), inset 0.2px 4px 4px rgba(24, 255, 255, 1);
-    transition: all 0.3s ease; /* Smooth transition for all properties */
+    transition: all 0.3s ease;
 }
 
 button:hover {
@@ -143,18 +143,18 @@ button:hover {
     font-size: 18px;
     padding: 0 15px;
     border: 2px solid #fff;
-    background: #060b23; /* Match background color */
-    color: #fff; /* White text */
+    background: #060b23; 
+    color: #fff; 
     outline: none;
-    appearance: none; /* Removes default dropdown arrow */
+    appearance: none; 
    
 }
 
 .input-field select option {
-    color: #fff; /* White text for options */
+    color: #fff; 
 }
 
-/* Adjust label position for select */
+
 .input-field select + label {
     top: -10px;
     left: 15px;
